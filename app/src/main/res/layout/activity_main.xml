@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:id="@+id/proximityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <TextView
+            android:id="@+id/LIGHT_reading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/maxvalue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/gyro1"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            tools:text="no values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/accelero1"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="100dp"
+            tools:text="accelero no"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/linearaccn"
+            tools:text="linear accn"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/accelero2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/accelero3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
+
